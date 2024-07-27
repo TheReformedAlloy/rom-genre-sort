@@ -1,0 +1,14 @@
+{
+  "name": "sort-roms",
+  "version": "1.0.0",
+  "description": "Sorts ROMs into subfolders based n their genre.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clint Aaron Mooney",
+  "license": "ISC",
+  "dependencies": {
+    "cli-progress": "^3.12.0"
+  }
+}
