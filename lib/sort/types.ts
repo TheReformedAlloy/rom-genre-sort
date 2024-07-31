@@ -1,0 +1,31 @@
+export enum GameConsole {
+  NINTENDO_3DS,
+  NINTENDO_64,
+  NINTENDO_DS,
+  NINTENDO_GAMEBOY,
+  NINTENDO_GAMEBOY_COLOR,
+  NINTENDO_GAMEBOY_ADVANCE,
+  NINTENDO_GAMECUBE,
+  NINTENDO_NES,
+  NINTENDO_SNES,
+  NINTENDO_WII,
+  SONY_PLAYSTATION,
+  SONY_PLAYSTATION_2,
+  SONY_PLAYSTATION_PORTABLE,
+}
+
+export const ConsoleAbbreviations = new Map<GameConsole, string>([
+  [GameConsole.NINTENDO_3DS, "3DS"],
+  [GameConsole.NINTENDO_64, "N64"],
+  [GameConsole.NINTENDO_DS, "NDS"],
+  [GameConsole.NINTENDO_GAMEBOY, "GB"],
+  [GameConsole.NINTENDO_GAMEBOY_COLOR, "GBC"],
+  [GameConsole.NINTENDO_GAMEBOY_ADVANCE, "GBA"],
+  [GameConsole.NINTENDO_GAMECUBE, "GC"],
+  [GameConsole.NINTENDO_NES, "NES"],
+  [GameConsole.NINTENDO_SNES, "SNES"],
+  [GameConsole.NINTENDO_WII, "Wii"],
+  [GameConsole.SONY_PLAYSTATION, "PSX"],
+  [GameConsole.SONY_PLAYSTATION_2, "PS2"],
+  [GameConsole.SONY_PLAYSTATION_PORTABLE, "PSP"],
+]);

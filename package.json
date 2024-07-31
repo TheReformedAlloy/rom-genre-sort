@@ -9,6 +9,10 @@
   "author": "Clint Aaron Mooney",
   "license": "ISC",
   "dependencies": {
-    "cli-progress": "^3.12.0"
+    "cli-progress": "^3.12.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
   }
 }
